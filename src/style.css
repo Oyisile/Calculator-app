@@ -1,3 +1,101 @@
 body {
     text-align: center;
 }
+#calculation-input {
+    padding: 15px;
+    border-width: 0;
+}
+.row-1, 
+.row-2, .row-3, .row-4{
+    margin: 8px;
+}
+.cancel-button {
+    border-radius: 50%;
+    border-width: 0;
+    padding: 20px;
+}
+.negative-button {
+   border-radius: 50%;
+    border-width: 0;
+    padding: 20px; 
+}
+.percentage-button {
+   border-radius: 50%;
+    border-width: 0;
+    padding: 20px; 
+}
+.division-button {
+   border-radius: 50%;
+    border-width: 0;
+    padding: 20px; 
+}
+.seven-button {
+   border-radius: 50%;
+    border-width: 0;
+    padding: 20px; 
+}
+.eight-button {
+   border-radius: 50%;
+    border-width: 0;
+    padding: 20px; 
+}
+.nine-button {
+   border-radius: 50%;
+    border-width: 0;
+    padding: 20px; 
+}
+.multiply-button {
+   border-radius: 50%;
+    border-width: 0;
+    padding: 20px; 
+}
+.four-button {
+   border-radius: 50%;
+    border-width: 0;
+    padding: 20px; 
+}.five-button {
+   border-radius: 50%;
+    border-width: 0;
+    padding: 20px; 
+}.six-button {
+   border-radius: 50%;
+    border-width: 0;
+    padding: 20px; 
+}
+.minus-button {
+   border-radius: 50%;
+    border-width: 0;
+    padding: 20px; 
+}
+.one-button {
+   border-radius: 50%;
+    border-width: 0;
+    padding: 20px; 
+}.two-button {
+   border-radius: 50%;
+    border-width: 0;
+    padding: 20px; 
+}.three-button {
+   border-radius: 50%;
+    border-width: 0;
+    padding: 20px; 
+}
+.plus-button {
+   border-radius: 50%;
+    border-width: 0;
+    padding: 20px; 
+}
+.zero-button {
+   border-radius: 25%;
+    border-width: 0;
+    padding: 20px 40px; 
+    text-align: left;
+}.point-button {
+   border-radius: 50%;
+    border-width: 0;
+    padding: 20px; 
+}.equal-button {
+   border-radius: 50%;
+    border-width: 0;
+    padding: 20px; 
+}
