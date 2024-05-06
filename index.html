@@ -9,73 +9,73 @@
 <body>
     <h1>Calculator</h1>
     <form action="" id="calculator">
-        <input type="text" id="calculation-input">
+        <input type="text" id="calculation-input" readonly>
     </form>
     <div>
         <div class="row-1">
-        <button class="cancel-button">
+        <button onclick="clearDisplay" class="cancel-button">
         C
         </button>
-        <button class="negative-button">
+        <button onclick="callNumber('-')" class="negative-button">
             +/-
         </button>
-        <button class="percentage-button">
+        <button onclick="callNumber('&')" class="percentage-button">
           %  
         </button>
-        <button class="division-button">
+        <button onclick="callNumber('/')" class="division-button">
           ÷ 
         </button>
         </div>
         <div class="row-2">
-        <button class="seven-button">
+        <button onclick="callNumber('7')"  class="seven-button">
             7
         </button>
-        <button class="eight-button">
+        <button onclick="callNumber('8')" class="eight-button">
             8
         </button>
-        <button class="nine-button">
+        <button onclick="callNumber('9')" class="nine-button">
             9
         </button>
-        <button class="multiply-button">
+        <button onclick="callNumber('*')" class="multiply-button">
             ×
         </button>
         </div>
         <div class="row-3">
-        <button class="four-button">
+        <button onclick="callNumber('4')" class="four-button">
             4
         </button>
-        <button class="five-button">
+        <button onclick="callNumber('5')" class="five-button">
             5
         </button>
-        <button class="six-button">
+        <button onclick="callNumber('6')" class="six-button">
             6
         </button>
-        <button class="minus-button">
+        <button onclick="callNumber('-')" class="minus-button">
             -
         </button>
         </div>
         <div class="row-4">
-        <button class="one-button">
+        <button onclick="callNumber('1')" class="one-button">
             1
         </button>
-        <button class="two-button">
+        <button onclick="callNumber('2')" class="two-button">
             2
         </button>
-        <button class="three-button">
+        <button onclick="callNumber('3')" class="three-button">
             3
         </button>
-        <button class="plus-button">
+        <button onclick="callNumber('+')" class="plus-button">
             +
         </button>
         </div>
         <div class="row-5">
-        <button class="zero-button">
+        <button onclick="callNumber('0')" class="zero-button">
             0
         </button>
-        <button class="point-button">
+        <button onclick="callNumber('.')" class="point-button">
             .
         </button>
-        <button class="equal-button">
+        <button onclick="calculate()" class="equal-button">
           =  
         </button>
         </div>

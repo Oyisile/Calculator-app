@@ -1,7 +1,9 @@
 
-function callNumber(button) {
-    let sumInput = document.querySelector("#calculation-input");
-    sumInput.innerHTML = button.value;
-}
-let numberSeven = document.querySelector(".seven-button");
-numberSeven.addEventListener("click", callNumber);
+    const sumInput = document.querySelector("#calculation-input");
+
+function callNumber(input) {
+ sumInput.value += input;
+  }
+
+let buttonSeven = document.querySelector(".seven-button");
+buttonSeven.addEventListener("click", callNumber);
