@@ -9,6 +9,9 @@ h1 {
     padding: 15px;
     border-width: 0;
     background-color: #1C1C1C;
+    color: white;
+    text-align: right;
+    font-size: 50px;
 }
 .row-1, 
 .row-2, .row-3, .row-4{
@@ -41,73 +44,73 @@ h1 {
 .seven-button {
    border-radius: 50%;
     border-width: 0;
-    padding: 20px; 
+    padding: 22px; 
     background-color: #505050;
 }
 .eight-button {
    border-radius: 50%;
     border-width: 0;
-    padding: 20px; 
+    padding: 22px; 
     background-color: #505050;
 }
 .nine-button {
    border-radius: 50%;
     border-width: 0;
-    padding: 20px; 
+    padding: 22px; 
     background-color: #505050;
 }
 .multiply-button {
    border-radius: 50%;
     border-width: 0;
-    padding: 20px; 
+    padding: 22px; 
     background-color: #FF9500;
 }
 .four-button {
    border-radius: 50%;
     border-width: 0;
-    padding: 20px; 
+    padding: 22px; 
     background-color: #505050;
 }.five-button {
    border-radius: 50%;
     border-width: 0;
-    padding: 20px; 
+    padding: 22px; 
     background-color: #505050;
 }.six-button {
    border-radius: 50%;
     border-width: 0;
-    padding: 20px; 
+    padding: 22px; 
     background-color: #505050;
 }
 .minus-button {
    border-radius: 50%;
     border-width: 0;
-    padding: 20px; 
+    padding: 22px; 
     background-color: #FF9500;
 }
 .one-button {
    border-radius: 50%;
     border-width: 0;
-    padding: 20px; 
+    padding: 22px; 
     background-color: #505050;
 }.two-button {
    border-radius: 50%;
     border-width: 0;
-    padding: 20px; 
+    padding: 22px; 
     background-color: #505050;
 }.three-button {
    border-radius: 50%;
     border-width: 0;
-    padding: 20px; 
+    padding: 22px; 
     background-color: #505050;
 }
 .plus-button {
    border-radius: 50%;
     border-width: 0;
-    padding: 20px; 
+    padding: 22px; 
     background-color: #FF9500;
 }
 .zero-button {
-   border-radius: 25%;
+   border-radius: 40px;
     border-width: 0;
     padding: 20px 48px; 
     text-align: left;
@@ -120,6 +123,6 @@ h1 {
 }.equal-button {
    border-radius: 50%;
     border-width: 0;
-    padding: 20px; 
+    padding: 22px; 
     background-color: #FF9500;
 }
