@@ -5,5 +5,10 @@ function callNumber(input) {
  sumInput.value += input;
   }
 
-let buttonSeven = document.querySelector(".seven-button");
-buttonSeven.addEventListener("click", callNumber);
+function clearDisplay() {
+    sumInput.value = "";
+}
+
+function calculate() {
+    sumInput.value = eval(sumInput.value);
+}
